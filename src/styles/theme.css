@@ -1,0 +1,46 @@
+:root {
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f4f4f5;
+  --bg-tertiary: #e4e4e7;
+  --text-primary: #18181b;
+  --text-secondary: #71717a;
+  --border: #e4e4e7;
+  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] {
+  --accent: #3b82f6;
+  --accent-hover: #60a5fa;
+  --bg-primary: #09090b;
+  --bg-secondary: #18181b;
+  --bg-tertiary: #27272a;
+  --text-primary: #fafafa;
+  --text-secondary: #a1a1aa;
+  --border: #27272a;
+  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.rir-0 { background-color: #ef4444; color: white; }
+.rir-1, .rir-2 { background-color: #f97316; color: white; }
+.rir-3, .rir-4 { background-color: #eab308; color: #18181b; }
+.rir-5plus { background-color: #22c55e; color: white; }
+
+.activity-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background-color: var(--bg-tertiary);
+}
+
+.activity-dot.active {
+  background-color: var(--accent);
+}
+
+.intensity-cell {
+  border-radius: 4px;
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 0.75rem;
+}

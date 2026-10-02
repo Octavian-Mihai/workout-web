@@ -3,6 +3,12 @@
 A mobile-first React workout tracking web app. Log sets with RIR, follow programs, view analytics, and customize your theme.
 
 
+## Screenshots
+
+Home, Workout analytics and Activity details (sample data).
+
+![Workout Web: Home, Workout and Activity screens](docs/screenshots/app.png)
+
 ## Architecture
 
 ```mermaid
